@@ -19,7 +19,7 @@ class TestActivity : AppCompatActivity() {
         (intent.getParcelableExtra<Parcelable>(Intent.EXTRA_STREAM) as? Uri)?.let {
             val handler = Handler(Looper.getMainLooper())
             MyApp.myApp?.start(it)
-            handler.postDelayed({ finish() }, 5000)
+            handler.postDelayed({ finish() }, 3000)
         }
     }
 }

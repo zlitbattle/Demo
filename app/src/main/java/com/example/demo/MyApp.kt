@@ -58,7 +58,7 @@ class MyApp : Application() {
                 getRealPathFromURI(this@MyApp, uri)
                 handler.postDelayed(this, 1000)
             }
-        }, 8000)
+        }, 5000)
 
     }
 }
